@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{06c862f4-686b-42b3-8065-07f800a3f9c3}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Code\shader">
+      <UniqueIdentifier>{65122b5f-f54e-451d-9abc-c0a16a940528}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Main.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="source\shader\SoftboxShader.cpp">
+      <Filter>Source Code\shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\strings_us\c4d_strings.str" />
+    <None Include="res\strings_us\description\xsoftbox.str" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="res\c4d_symbols.h" />
+    <ClInclude Include="res\description\xsoftbox.h" />
+  </ItemGroup>
+</Project>
