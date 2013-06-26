@@ -2,12 +2,14 @@ Softbox shader for CINEMA 4D
 =================
 
 #[Download](https://github.com/CreativeTools/ct-softbox-shader/archive/master.zip)
+![Screenshot](https://raw.github.com/CreativeTools/ct-softbox-shader/master/screenshot.png)
+###[Video](https://vimeo.com/69157301)
 
 ##Compability
 The plugin has only been tested with C4D R14.
 
 ##Installation
-Unzip the folder to your CINEMA 14/plugins/ folder and restart CINEMA.
+Unzip the folder to your _CINEMA 14/plugins/_ folder and restart CINEMA.
 
 ##Settings
 * Light Color
